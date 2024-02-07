@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Project\cppVBoard\opencv-sources\build\modules\world\mathfuncs_core.avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\imgproc\src\corner.avx.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\cppVBoard\opencv-sources\build\modules\world\accum.avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\cppVBoard\opencv-sources\build\modules\world\layers\layers_common.avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\cppVBoard\opencv-sources\build\modules\world\layers\cpu_kernels\conv_block.avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\cppVBoard\opencv-sources\build\modules\world\layers\cpu_kernels\conv_depthwise.avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\cppVBoard\opencv-sources\build\modules\world\layers\cpu_kernels\conv_winograd_f63.avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\cppVBoard\opencv-sources\build\modules\world\layers\cpu_kernels\fast_gemm_kernels.avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3BEC5117-6C02-3BDD-A31F-68A077746AE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc">
+      <UniqueIdentifier>{3459F44C-3661-3AF0-852D-FDE3E30FCE96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src">
+      <UniqueIdentifier>{06ED97D6-9B51-3D16-89C2-6A6D908F3CB7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

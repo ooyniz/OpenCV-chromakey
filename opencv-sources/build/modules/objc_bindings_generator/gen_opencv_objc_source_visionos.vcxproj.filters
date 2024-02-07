@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\cppVBoard\opencv-sources\build\CMakeFiles\90c2ca63035adb92c2d26ebdeeaef1e8\gen_opencv_objc_source_visionos.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\cppVBoard\opencv-sources\build\CMakeFiles\a558746f572ef27303722bf038f733d8\gen_opencv_objc_source_visionos.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\objc\generator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\objc\generator\gen_objc.py" />
+    <None Include="C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\objc\generator\templates\cmakelists.template" />
+    <None Include="C:\Project\cppVBoard\opencv-sources\build\modules\objc_bindings_generator\gen_objc.json" />
+    <None Include="C:\Project\cppVBoard\opencv-sources\build\modules\objc_bindings_generator\CMakeFiles\gen_opencv_objc_source_visionos" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FD799DE0-4806-3DBB-83F6-46B18F8B0A64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

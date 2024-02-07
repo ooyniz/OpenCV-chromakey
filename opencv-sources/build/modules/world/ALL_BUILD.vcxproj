@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FC677EA5-EBED-3724-98AB-785006B7461B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\cppVBoard\opencv-sources\build\modules\world;C:\Project\cppVBoard\opencv-sources\build\3rdparty\zlib;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\zlib;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\openjpeg\openjp2;C:\Project\cppVBoard\opencv-sources\build\3rdparty\openjpeg\openjp2;C:\Project\cppVBoard\opencv-sources\build\3rdparty\libtiff;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\libtiff;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\libpng;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\libwebp\src;C:\Project\cppVBoard\opencv-sources\build\3rdparty\libjpeg-turbo;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\libjpeg-turbo\src;C:\Project\cppVBoard\opencv-sources\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Project\cppVBoard\opencv-sources\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Project\cppVBoard\opencv-sources\build;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\openexr\Half;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\openexr\Iex;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\openexr\IlmThread;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\openexr\Imath;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\openexr\IlmImf;C:\Project\cppVBoard\opencv-sources\build\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\cppVBoard\opencv-sources\build\modules\world;C:\Project\cppVBoard\opencv-sources\build\3rdparty\zlib;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\zlib;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\openjpeg\openjp2;C:\Project\cppVBoard\opencv-sources\build\3rdparty\openjpeg\openjp2;C:\Project\cppVBoard\opencv-sources\build\3rdparty\libtiff;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\libtiff;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\libpng;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\libwebp\src;C:\Project\cppVBoard\opencv-sources\build\3rdparty\libjpeg-turbo;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\libjpeg-turbo\src;C:\Project\cppVBoard\opencv-sources\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Project\cppVBoard\opencv-sources\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Project\cppVBoard\opencv-sources\build;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\openexr\Half;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\openexr\Iex;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\openexr\IlmThread;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\openexr\Imath;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\3rdparty\openexr\IlmImf;C:\Project\cppVBoard\opencv-sources\build\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\world\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/world/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Project/cppVBoard/opencv-sources/opencv-4.9.0 -BC:/Project/cppVBoard/opencv-sources/build --check-stamp-file C:/Project/cppVBoard/opencv-sources/build/modules/world/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.28\Modules\CMakePushCheckState.cmake;C:\Program Files (x86)\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.28\Modules\FindIconv.cmake;C:\Program Files (x86)\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\cmake\templates\vs_version.rc.in;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\calib3d\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\core\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\dnn\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\dnn\cmake\hooks\INIT_MODULE_SOURCES_opencv_dnn.cmake;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\dnn\cmake\plugin.cmake;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\features2d\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\flann\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\gapi\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\highgui\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\highgui\cmake\plugin.cmake;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\imgcodecs\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\imgproc\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\ml\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\objdetect\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\photo\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\stitching\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\video\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\videoio\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\videoio\cmake\plugin.cmake;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\aruco\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\bgsegm\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\bioinspired\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\ccalib\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\datasets\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\dnn_objdetect\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\dnn_superres\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\dpm\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\face\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\fuzzy\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\hfs\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\intensity_transform\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\line_descriptor\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\mcc\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\optflow\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\phase_unwrapping\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\plot\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\quality\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\rapid\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\reg\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\rgbd\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\saliency\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\shape\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\stereo\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\structured_light\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\superres\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\surface_matching\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\text\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\text\text_config.hpp.in;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\tracking\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\videostab\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\wechat_qrcode\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\xfeatures2d\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\xfeatures2d\cmake\download_boostdesc.cmake;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\xfeatures2d\cmake\download_vgg.cmake;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\ximgproc\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\xobjdetect\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\xphoto\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Project\cppVBoard\opencv-sources\build\modules\world\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/world/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Project/cppVBoard/opencv-sources/opencv-4.9.0 -BC:/Project/cppVBoard/opencv-sources/build --check-stamp-file C:/Project/cppVBoard/opencv-sources/build/modules/world/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.28\Modules\CMakePushCheckState.cmake;C:\Program Files (x86)\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.28\Modules\FindIconv.cmake;C:\Program Files (x86)\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\cmake\templates\vs_version.rc.in;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\calib3d\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\core\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\dnn\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\dnn\cmake\hooks\INIT_MODULE_SOURCES_opencv_dnn.cmake;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\dnn\cmake\plugin.cmake;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\features2d\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\flann\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\gapi\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\highgui\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\highgui\cmake\plugin.cmake;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\imgcodecs\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\imgproc\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\ml\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\objdetect\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\photo\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\stitching\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\video\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\videoio\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv-4.9.0\modules\videoio\cmake\plugin.cmake;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\aruco\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\bgsegm\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\bioinspired\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\ccalib\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\datasets\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\dnn_objdetect\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\dnn_superres\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\dpm\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\face\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\fuzzy\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\hfs\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\intensity_transform\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\line_descriptor\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\mcc\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\optflow\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\phase_unwrapping\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\plot\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\quality\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\rapid\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\reg\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\rgbd\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\saliency\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\shape\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\stereo\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\structured_light\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\superres\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\surface_matching\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\text\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\text\text_config.hpp.in;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\tracking\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\videostab\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\wechat_qrcode\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\xfeatures2d\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\xfeatures2d\cmake\download_boostdesc.cmake;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\xfeatures2d\cmake\download_vgg.cmake;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\ximgproc\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\xobjdetect\CMakeLists.txt;C:\Project\cppVBoard\opencv-sources\opencv_contrib-4.9.0\modules\xphoto\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Project\cppVBoard\opencv-sources\build\modules\world\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\cppVBoard\opencv-sources\build\ZERO_CHECK.vcxproj">
+      <Project>{8ECB215B-F0F8-3B05-A231-8BD42AD940AF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\cppVBoard\opencv-sources\build\modules\world\tools\waldboost_detector\opencv_waldboost_detector.vcxproj">
+      <Project>{A202814E-5F90-3A7B-B62A-7E8B598A644F}</Project>
+      <Name>opencv_waldboost_detector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\cppVBoard\opencv-sources\build\modules\world\opencv_world.vcxproj">
+      <Project>{7C3C6474-A5D9-30CA-8A41-D6AF9D7CDE68}</Project>
+      <Name>opencv_world</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\cppVBoard\opencv-sources\build\modules\world\opencv_world_AVX.vcxproj">
+      <Project>{0C7AEE2A-F569-3F36-B24B-382521846CE2}</Project>
+      <Name>opencv_world_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\cppVBoard\opencv-sources\build\modules\world\opencv_world_SSE4_1.vcxproj">
+      <Project>{233FB396-8D3F-3C5C-8A85-4C2126DE8C69}</Project>
+      <Name>opencv_world_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\cppVBoard\opencv-sources\build\modules\world\opencv_world_SSE4_2.vcxproj">
+      <Project>{C0F67F0D-85BA-3A70-ABBD-BFCB034AC5ED}</Project>
+      <Name>opencv_world_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

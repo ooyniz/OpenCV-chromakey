@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/core/misc/python/package/mat_wrapper/__init__.py
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/core/misc/python/package/utils/__init__.py
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/gapi/misc/python/package/gapi/__init__.py
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/python/bindings/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/python/package/cv2/__init__.py
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/python/package/cv2/load_config_py2.py
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/python/package/cv2/load_config_py3.py
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/python/package/extra_modules/misc/__init__.py
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/python/package/extra_modules/misc/version.py
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/python/package/setup.py
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/python/package/template/config.py.in
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/python/python_loader.cmake

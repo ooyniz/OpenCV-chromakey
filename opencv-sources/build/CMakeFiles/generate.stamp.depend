@@ -1,0 +1,104 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CPack.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CPackComponent.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/FindGit.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/TestBigEndian.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Templates/CPackConfig.cmake.in
+C:/Project/cppVBoard/opencv-sources/build/3rdparty/ffmpeg/ffmpeg_version.cmake
+C:/Project/cppVBoard/opencv-sources/build/CMakeFiles/3.28.2/CMakeCCompiler.cmake
+C:/Project/cppVBoard/opencv-sources/build/CMakeFiles/3.28.2/CMakeCXXCompiler.cmake
+C:/Project/cppVBoard/opencv-sources/build/CMakeFiles/3.28.2/CMakeRCCompiler.cmake
+C:/Project/cppVBoard/opencv-sources/build/CMakeFiles/3.28.2/CMakeSystem.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/3rdparty/ffmpeg/ffmpeg.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/3rdparty/ippicv/ippicv.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVCRTLinkage.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVCompilerOptimizations.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVCompilerOptions.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVDetectCXXCompiler.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVDetectDirectML.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVDetectDirectX.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVDetectFlatbuffers.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVDetectOpenCL.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVDetectPython.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVDetectTrace.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVDownload.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVExtraTargets.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVFindFrameworks.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVFindIPP.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVFindIPPIW.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVFindLAPACK.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVFindLibsGUI.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVFindLibsGrfmt.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVFindLibsPerf.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVFindLibsVideo.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVFindOpenEXR.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVFindProtobuf.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVGenABI.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVGenAndroidMK.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVGenConfig.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVGenHeaders.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVGenSetupVars.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVInstallLayout.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVMinDepVersions.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVModule.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVPCHSupport.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVPackaging.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVUtils.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/OpenCVVersion.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/checks/directml.cpp
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/checks/directx.cpp
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/checks/opencl.cpp
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/checks/win32uitest.cpp
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/platforms/OpenCV-Windows.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/templates/OpenCVConfig-version.cmake.in
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/templates/OpenCVConfig.cmake.in
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/templates/OpenCVConfig.root-WIN32.cmake.in
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/templates/cmake_uninstall.cmake.in
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/templates/custom_hal.hpp.in
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/templates/cv_cpu_config.h.in
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/templates/cvconfig.h.in
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/templates/opencv_modules.hpp.in
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/templates/setup_vars_win32.cmd.in
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/vars/EnableModeVars.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/core/include/opencv2/core/version.hpp
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/dnn/cmake/init.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/gapi/cmake/DownloadADE.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/gapi/cmake/init.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/highgui/cmake/detect_win32ui.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/highgui/cmake/init.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/videoio/cmake/detect_dshow.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/videoio/cmake/detect_ffmpeg.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/videoio/cmake/detect_msmf.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/videoio/cmake/detect_obsensor.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/videoio/cmake/init.cmake
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/julia/cmake/init.cmake
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/matlab/cmake/init.cmake
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/text/cmake/FindTesseract.cmake
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/text/cmake/init.cmake

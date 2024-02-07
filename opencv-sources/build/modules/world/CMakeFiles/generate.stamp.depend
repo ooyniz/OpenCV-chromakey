@@ -1,0 +1,65 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakePushCheckState.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/FindIconv.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/cmake/templates/vs_version.rc.in
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/calib3d/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/core/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/dnn/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/dnn/cmake/hooks/INIT_MODULE_SOURCES_opencv_dnn.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/dnn/cmake/plugin.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/features2d/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/flann/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/gapi/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/highgui/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/highgui/cmake/plugin.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/imgcodecs/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/imgproc/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/ml/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/objdetect/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/photo/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/stitching/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/video/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/videoio/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/videoio/cmake/plugin.cmake
+C:/Project/cppVBoard/opencv-sources/opencv-4.9.0/modules/world/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/aruco/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/bgsegm/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/bioinspired/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/ccalib/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/datasets/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/dnn_objdetect/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/dnn_superres/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/dpm/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/face/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/fuzzy/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/hfs/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/intensity_transform/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/line_descriptor/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/mcc/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/optflow/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/phase_unwrapping/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/plot/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/quality/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/rapid/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/reg/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/rgbd/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/saliency/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/shape/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/stereo/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/structured_light/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/superres/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/surface_matching/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/text/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/text/text_config.hpp.in
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/tracking/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/videostab/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/wechat_qrcode/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/xfeatures2d/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/xfeatures2d/cmake/download_boostdesc.cmake
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/xfeatures2d/cmake/download_vgg.cmake
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/ximgproc/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/xobjdetect/CMakeLists.txt
+C:/Project/cppVBoard/opencv-sources/opencv_contrib-4.9.0/modules/xphoto/CMakeLists.txt
